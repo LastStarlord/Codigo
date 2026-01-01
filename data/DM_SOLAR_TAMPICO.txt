@@ -1,0 +1,671 @@
+
+=== PAGINA 1 ===
+C&I BESS AC
+Technical Proposal
+Client Name: DMSolar
+Project Name:Celec Tampico
+Proposal Date: 2025-12-10
+Prepared by: Enrique Solis
+Point of Contact: Juan Maisterra
+November 6, 2025
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 2 ===
+Table of Contents
+Table of Contents ....................................................................................................................... 1
+Executive Summary .................................................................................................................. 2
+Project Technical Proposal ...................................................................................................... 3
+Technology Information ........................................................................................................... 8
+BESS O&M Technical Support .............................................................................................. 20
+Company Overview .................................................................................................................. 22
+1
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 3 ===
+Executive Summary
+Project: Celec Acaje,Veracruz Location:
+Mexico
+Project Specification: 770KW / 1296KWh
+BESS Configuration: Gotion C&I EDGE 507kWh
+Our proposed system will include:
+(4 EDGE 507 battery cabinets and 2 AC confluence cabinets housing total of 8 PCS).
+Gotion is pleased to present this proposal for a 2000KWh C&I energy storage project to support
+BATTERY DEPOT’s long-term energy goals. This solution is based on our EDGE 507kWh
+system, a high-capacity, containerized LFP battery storage platform engineered for durability,
+safety, and peak performance under large-scale operating conditions.
+Scope of Supply and Services
+This proposal includes the supply of 4 EDGE 507kWh energy storage cabinets for deployment.
+All technical specifications and system configurations are defined in the accompanying
+Technical Agreement.
+Gotion’s scope of services includes:
+Direct delivery of battery containers and integrated hardware
+Commissioning of the battery system, conducted by the Gotion commissioning team
+Training and oversight for EPC teams during installation, with Gotion verifying that the system
+has been built to specification
+Please note: This proposal does not include EMS (energy management system), capacity
+augmentation, EPC, or installation labor.
+Gotion will provide support to ensure the system is properly installed and commissioned, with a
+focus on enabling the customer’s EPC team through structured training and on-site verification.
+2
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 4 ===
+Project Technical Proposal
+The purpose of this document is to define Gotion’s scope of supply and to clarify the technical
+features of all equipment within the scope of the supply. The technical design and scope of supply
+and are based on the technical discussion between Gotion and DMSolar project documentation
+provided. As requested by DMSolar, Gotion will identify scope based on the project requirements,
+supplied list below.
+Gotion Hardware Supply Scope: DMSolar or end client supply:
+• Battery Cells and Racks • SCADA
+• Battery Management System (BMS) • Medium Voltage Transformers
+• Thermal Management System (TMS) • EMS
+• Life Safety & Fire Fighting System • High Voltage Substation
+• DC Cabling (connecting all the racks) • IT Cybersecurity
+• Communication Panel • DAS
+• DC Panel for Outgoing DC Power
+• AC Panels for Incoming Auxiliaries
+• BESS Enclosure
+• PCS
+EDGE Product Specification Sheet
+ID Item Parameters Notes
+1 Model 507kWh
+Product Nameplate
+2 507kWh Reduced pack
+Capacity
+Recommend
+3 Battery Operating 712.8V ~ 950.4V 95%DOD
+Voltage
+Maximum Rate of
+4 0.5C
+Charge/Discharge
+Operating
+5 -20°C ~ 45°C
+Temperature
+Storage
+6 Temperature -30°C ~ 60°C Recommended 25°C
+Range
+Thermal
+7 Liquid Cooled
+Management
+>2000m, derating would
+8 Altitude ≤2000m
+be required
+9 Communication CAN2.0/RS485/Ethernet
+10 Cell balancing Passive
+3
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 5 ===
+Product Bill of Materials
+Item Description Comments/Notes/Specs Quantity
+Cabinet Dimensions (W x
+1400 x 2400 x 2500 4
+D x H) mm
+Gotion LFP 300Ah Cell, Gotion
+Packs, Level 1 BMS 4*12
+Level 1 BMS
+253kWh String, Gotion Level 2
+Racks, Level 2 BMS 4*2
+BMS
+Temperature/smoke detection
+Explosion deflagration panel
+PACK-level submerged fire
+extinguishing system
+Fire Suppression System 4*2
+Stat-X Aerosol fire extinguishing
+system
+Prefabricated water sprinkler
+system (optional)
+BTMS-12B: Includes liquid-
+cooled unit, piping system, piping
+Liquid Cooling System 4*3
+system consists of multi-stage
+piping and control valve set
+Battery positive plug/Battery
+negative plug/DC power
+HV & LV Wiring Harness
+cable/AC power 4*3
+and Accessories
+cable/Communication wires and
+cables/Category 5 network cable
+4
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 6 ===
+System Configuration
+This proposal is based on 2 (500KW / 1000KWh) project sizing and required applications. This
+proposal is based on a common building block of an EDGE IP55 outdoor-rated cabinet with an
+initial rating of 857kWh.
+Qty (2) *1 BESS cabinets and Qty (1) *1 AC confluence cabinet will be supplied initially, for a
+total battery system nameplate size of 2028KWh DC. The Initial AC usable capacity is
+1466KWh AC.
+Project Requirements Table
+Project Requirements Value Notes
+Required Nameplate The 2000KWh solution is the
+Sizing(@BOL) 2000KWh smallest we can offer to meet the
+1296KWh requirement.
+Required Output Power 1000KW The 1000kW solution is the
+smallest we can offer to meet the
+770KW requirement.
+Application Rate of
+0.5C
+Charge/Discharge
+Augmentation No
+Assuming Cycles Per
+365
+Year
+Resting SOC 50%
+Location Mexico
+Project Information
+System Diagram
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 7 ===
+The solution consists of 4 blocks of 507 MWh each, and 500 kW of power delivered at the connection point at a
+voltage of 480 V (3P, PE) giving a total of 2028 MWh and a total power of 500 kW (POC)
+TOTAL NUMBER OF DC UNITS =4
+TOTAL NUMBER OF AC Confluence Cabinet =2
+TOTAL NUMBER OF PCS=8
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 8 ===
+System Degradation Table
+Cell SOH % Cell SOH %
+End of (without Calendar (with DC Usable AC Usable
+Year Degradation) Calendar (KWh) (KWh)
+Degradation)
+0 1.0000 1.0000 1756.09 1466.19
+1 0.9455 0.9813 1656.33 1382.89
+2 0.9186 0.9750 1607.17 1341.85
+3 0.8956 0.9703 1565.04 1306.67
+4 0.8757 0.9664 1528.65 1276.29
+5 0.8579 0.9629 1496.04 1249.07
+6 0.8414 0.9597 1465.86 1223.87
+7 0.8260 0.9567 1437.69 1200.35
+8 0.8115 0.9538 1411.15 1178.19
+9 0.7976 0.9510 1385.75 1156.98
+10 0.7844 0.9482 1361.55 1136.77
+11 0.7717 0.9454 1338.27 1117.34
+12 0.7594 0.9427 1315.74 1098.53
+13 0.7474 0.9400 1293.89 1080.29
+14 0.7358 0.9374 1272.71 1062.61
+15 0.7246 0.9349 1252.15 1045.44
+1. The degradation curve (column: Original Cell SOH (% of Original Capacity)) is based on the
+configurations listed in the Configuration Table.
+2. For projects with more than 90 days from FAT to SAT, calendar degradation may apply. This design
+assumes 180 days.
+3. The number of cabinets is subject to minor change between this technical proposal and the final
+contract
+4. The energy is considered BOL. If the energy is required to be delivered EOL, initial oversizing is
+required and an argumentation process may also be required.
+6
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 9 ===
+Calendar Life Degradation
+The following is the calendar life degradation chart.
+Full month from Calendar attenuation% of SOH at different temperatures (irreversible)
+FAT to SAT ≤15℃ 16~25℃ 26~35℃ 36~45℃
+1 0.79% 1.23% 1.87% 2.75%
+2 0.27% 0.41% 0.63% 0.93%
+3 0.20% 0.31% 0.47% 0.70%
+4 0.16% 0.25% 0.39% 0.59%
+5 0.14% 0.22% 0.35% 0.54%
+6 0.13% 0.20% 0.32% 0.50%
+7 0.12% 0.19% 0.30% 0.49%
+8 0.11% 0.18% 0.29% 0.48%
+9 0.10% 0.17% 0.28% 0.48%
+10 0.10% 0.16% 0.28% 0.48%
+11 0.10% 0.16% 0.28% 0.48%
+12 0.10% 0.15% 0.27% 0.47%
+7
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 10 ===
+Technology Information
+Gotion Battery Energy Storage System (BESS) Series
+Gotion’s next-generation utility-scale Battery Energy Storage System (BESS) delivers a fully
+integrated solution for energy storage and power management. Featuring safe, high-efficiency
+Lithium Iron Phosphate (LFP) batteries, the system can be customized to meet each customer’s
+specific power and energy requirements.
+Gotion’s BESS solutions are compact, flexible, and cost-effective, offering proven performance
+alongside advanced configurable control functions. With low initial capital cost, high round-trip
+efficiency, and minimal maintenance expenses, the system delivers an exceptionally attractive
+total cost of ownership.
+EDGE Battery Storage Cabinet
+The EDGE battery storage system incorporates the following key features:
+• High-performance LFP cells independently developed and manufactured by Gotion,
+offering ultra-long cycle life and superior charge/discharge capabilities.
+• Large system storage capacity with high energy conversion efficiency to maximize
+performance.
+• Proprietary Battery Management System (BMS) developed by Gotion, enabling real-time
+monitoring of individual cell voltage and temperature, total pack current and voltage,
+ambient temperature, and providing comprehensive overcharge and over-discharge
+protection.
+• Modular architecture supporting flexible, scalable, and upgradable deployments with high
+system reliability.
+• Advanced liquid cooling thermal management, improving energy utilization by
+approximately 30% compared to traditional air-cooled systems, and maintaining a
+maximum battery temperature variance of just 3~5°C.
+• Integrated aerosol fire suppression system, combined with provisions for sound and light
+alarms (to be installed on-site based on customer requirements).
+• Equipped with hose connection ports and external dry pipe interface.
+• IP55 outdoor design ensuring strong environmental resistance.
+8
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 11 ===
+Lithium-Iron Phosphate (LFP) Cell Overview
+Gotion High-Tech’s lithium-ion energy storage systems leverage advanced Lithium-Iron
+Phosphate (LFP) chemistry, offering exceptional thermal stability, cost-effectiveness, and
+industry-leading safety. Since entering the electric vehicle (EV) sector in 2006, Gotion’s batteries
+have been deployed in over 450,000 passenger vehicles, commercial vehicles, and energy
+storage projects worldwide.
+Lithium-Iron Phosphate (LFP) Cell
+Gotion’s LFP cells are engineered for durability, supporting up to 8,000 charge-discharge cycles and
+delivering an expected calendar life of 20 years at 25°C. Utilizing the same prismatic LFP cells across
+both grid storage and EV applications, Gotion ensures rigorous testing and compliance with the
+stringent performance demands of the automotive industry.
+Advantages of Lithium-Iron Phosphate Technology:
+Lithium-Iron Phosphate (LFP) batteries are ideally suited for a wide range of grid storage applications.
+As one of the most advanced commercially available battery technologies, LFP offers high power
+density, extended cycle life, minimal maintenance requirements, and superior thermal stability. Among
+lithium-ion chemistries, LFP stands out for delivering the longest cycle life and best- in-class thermal
+performance.
+Product Certifications:
+Standard UL1973 UL9540A UL 9540 UN38.3 UN3480 NFPA 68 NFPA 855
+Cell, Cell,
+Components Cell,
+Pack, Pack, Cabinet Cabinet Cabinet Cabinet
+Certified Pack
+Rack Rack
+9
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 12 ===
+Management System (BMS) Framework
+The BMS architecture is shown below:
+Figure 2: BMS Architecture
+The battery system’s protection and monitoring functions are implemented through a three-tier
+Battery Management System (BMS) architecture, consisting of the pack-level BMU, the rack- level
+BCMU, and the system-level BAMS. The primary functions of each BMS layer are as follows:
+BMU (Pack Level – Integrated within the Battery Pack): Monitors the voltage and temperature of
+individual cells, as well as the total voltage of the battery pack. The BMU transmits this information
+in real time to the higher-level BMS via the CAN protocol. It also manages voltage balancing
+between individual cells to ensure consistent performance.
+BCMU (Rack Level – Installed in the High Voltage Box): Monitors the total voltage and current
+of the entire battery rack, transmitting real-time data to the upper-level BMS via the CAN
+protocol. It provides key indicators such as the battery’s State of Charge (SOC), State of Health
+(SOH), power prediction, and internal resistance. The BCMU also manages relay control and
+voltage balancing at the rack level.
+EMU (System Level – Applied in Multi-Rack Configurations; Installed in the AC confluence
+cabinet): Collects data from multiple BCMUs and performs real-time estimation of the system’s
+remaining capacity and health. It communicates with the host controller and external systems
+via RS-485, CAN, and Modbus-TCP/IP. Depending on the system's complexity, the BAMS can
+be integrated within the high voltage box or installed as a standalone unit.
+Battery Management System Features
+Analog Measurement: The BMS continuously monitors key parameters such as rack voltage,
+charge and discharge current, ambient temperature, individual cell voltage, and cell temperature.
+It also performs real-time calculations of the State of Charge (SOC) and State of Health (SOH)
+10
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 13 ===
+for individual cells, ensuring safe, stable, and reliable operation of the battery system while
+extending service life.
+Balancing: The BMS includes cell balancing functionality to maintain consistent voltage levels
+across cells. This helps to maximize usable capacity and prolong the overall life of the battery
+system.
+Operational Alarm Function: When abnormalities such as overvoltage, undervoltage, overcurrent,
+high/low temperature, communication failure, or internal BMS faults are detected, the system
+triggers alarm signals. These alarms are reported to the PCS and the central monitoring system,
+enabling timely intervention and adjustment of operating strategies.
+System Protection: If measured values (voltage, current, temperature, etc.) exceed safety
+thresholds during operation, the BMS isolates the affected rack and takes it offline to prevent
+system-wide impact. Protection events are simultaneously reported to the upper-level control
+system.
+Self-Diagnosis: The BMS performs ongoing self-checks to detect issues such as communication
+interruptions with external systems, internal data bus errors, and sensor acquisition anomalies.
+Using diagnostic models, the system analyzes charge/discharge current, temperature, cell
+terminal voltage, internal resistance, and other parameters to assess SOC, SOH, and real-time
+discharge availability. All diagnostic results can be reported to the monitoring system.
+Thermal Management: Lithium battery modules generate heat during charging, raising internal
+temperatures. The BMS monitors temperature in real time and activates thermal control
+equipment when preset thresholds are exceeded. If temperatures reach critical levels, the BMS
+can automatically shut down the affected battery pack to prevent thermal runaway.
+Local Status Display and Data Logging: The BMS provides local display of system operating
+status, including real-time analog data, alarms, and protection events. Historical data such as
+configuration changes, alarm records, protection actions, and charge/discharge timestamps are
+logged with power-off retention capability. Alarm logs include threshold values, triggered
+parameters, timestamps, and peak readings during alarm periods.
+Operation Authority Management: The system supports role-based access control through
+password-protected operation rights. Any modification to operational modes or parameters
+requires authorization to ensure security and traceability
+11
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 14 ===
+Fire Fighting System (FFS) Description (UL Certified)
+The fire protection design of the energy storage system emphasizes fire suppression rather than
+explosion prevention. It utilizes a multi-tiered fire suppression strategy, combining battery pack-
+level immersion protection, aerosol fire extinguishing systems, traditional sprinkler systems, and
+deflagration panels for pressure relief. The system components include early warning devices,
+automatic fire extinguishing units, exhaust systems, and sprinkler systems.
+The fire safety strategy includes the following key elements:
+• Each battery module is equipped with cell-level temperature sensors, enabling early
+warning capabilities through real-time monitoring and BMS linkage management.
+• If the battery pack temperature becomes excessively high, two or more cells exceed the
+over-temperature threshold of approximately 80°C, and the overall pack temperature rise
+rate surpasses 24°C within 9 seconds (detected every 3 seconds and sustained for 3 or
+more consecutive times), the battery pack's immersion fire suppression system is
+activated, initiating liquid injection to mitigate the early stage of thermal runaway.
+• Each protected area is equipped with dual independent detection circuits, featuring smoke
+and temperature detectors with dry contact outputs. Upon simultaneous activation of both
+detectors, the system issues a fire alarm to the main control system located in the high
+voltage box, immediately halts all charging and discharging activities, sends a dry contact
+shutdown signal to the PCS, and disconnects the rack contactors after a one-second
+delay. If the local temperature reaches the aerosol fire extinguishing device’s activation
+point, the extinguishing agent is deployed, and a confirmation signal is sent to the BMS.
+• The cabinet includes a pre-installed DN25 external threaded pipe capped at the outdoor
+cabinet’s exterior wall. During site installation, the cap is removed, and the pipe is
+extended to connect to an external firefighting valve. Upon valve activation, water flows
+through the piping network to closed-head sprinkler nozzles. The sprinklers, equipped with
+heat-sensitive elements, automatically activate in the presence of fire or high- temperature
+airflow, rupturing to discharge water for fire suppression.
+Aerosol Fire Extinguishing Systems
+The cabinet-level fire protection solution in this design utilizes an aerosol-based automatic fire
+extinguishing system. The fire control panel and sound and light alarm devices are not pre-
+installed; they will be provided and installed on-site according to customer requirements. These
+components can be installed either inside or externally on the AC confluence cabinet.
+Communication between the fire control unit and the energy storage system can be integrated
+into the BMS network or configured to operate independently. Each energy storage station cabinet
+is equipped with dedicated pressure relief ports to safely discharge excess air pressure and
+aerosol extinguishing agents during fire suppression activation.
+Items Configuration
+Power Supply AC220V/DC24V
+12
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 15 ===
+To be installed on-site based on customer
+Fire Control Panel
+requirements
+Force start switch
+User Switch Emergency button
+Automatic manual switch
+Fire Extinguisher Aerosol Fire Extinguishing Systems
+Thermal runaway fire detection, heat-sensitive
+Detector
+activation
+Sound and light alarm (on-site installation as per
+Site Warning
+customer requirements)
+Pressure Relief
+Deflagration panel
+Device
+Table 1: Fire Suppression System Configuration
+System working mode
+1. Alarm and Delayed Activation
+To ensure personnel safety before the aerosol fire extinguishing system is activated, the system
+is configured with a delay mechanism.
+When a fire alarm signal is detected, the system immediately triggers the in-station and off- station
+sound and light alarms. After a 30-second delay, if no emergency stop is triggered, the aerosol
+fire extinguisher is activated.
+2. Automatic manual mode
+The fire suppression system supports two operational modes: Automatic Mode and Manual Mode,
+switchable via the "Automatic/Manual" selector.
+• Automatic Mode: When a fire alarm is detected, the system automatically triggers the
+alarms and activates the aerosol fire extinguisher after the delay period.
+• Manual Mode: In Manual Mode, upon fire detection, the system only triggers the sound
+and light alarms. The fire extinguisher will not activate automatically; manual intervention
+is required if necessary.
+Operators should select Manual Mode during personnel presence inside the station and return to
+Automatic Mode after personnel exit.
+3. Forced Start and Emergency Stop
+Forced Start: In either Automatic or Manual Mode, pressing the Forced Start button immediately
+triggers the in-station and off-station sound and light alarms. After a 30-second delay, the aerosol
+fire extinguisher is activated.
+Emergency Stop: Pressing the Emergency Stop button during the delay cancels the fire
+extinguishing sequence and silences all alarms. In addition, the system will execute protective
+13
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 16 ===
+actions: delaying 2 seconds to disconnect each rack contactor, issuing PCS shutdown
+commands, and isolating the affected systems according to emergency protocols.
+System Functions
+1. Sound and Light Alarms
+The system provides early warning and fire alarm functions via acousto-optic signaling. Fire
+alarms are issued through in-station and off-station sound and light alarm devicesSound and light
+alarm (on-site installation as per customer requirements).
+2. Intelligent Fire Detection and Judgment
+The system utilizes integrated detectors combining smoke, temperature, and gas sensors to
+perform intelligent fire detection. Fire risk assessments are conducted using methods such as
+fixed thresholds, multi-sensor data fusion, and trend analysis. When a high-sensitivity gas sensor
+detects an abnormal concentration of thermal runaway gases, or a smoke sensor detects visible
+smoke, or multiple sensors collectively indicate abnormal conditions, an early warning is triggered.
+If, following the early warning, the temperature sensor detects an abnormal temperature trend
+with a clear upward trajectory, the system escalates the status to a fire warning.
+3. Delayed Activation Sequence
+The system is equipped with a strict activation sequence that ensures sufficient time for
+evacuation before activating the aerosol fire suppression system. Upon fire detection, sound and
+light alarms are triggered immediately, followed by a delay to provide station personnel adequate
+time to evacuate safely before fire suppression actions commence.
+4. Integrated Detector
+Each detector integrates smoke detection and temperature monitoring. Utilizing a "power battery
+thermal runaway model," the system analyzes real-time thermal parameters to assess potential
+thermal runaway events or fire conditions. Detectors are installed at the top section of each battery
+cabinet space for optimal monitoring coverage.
+Figure 3: FSS Detectors
+14
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 17 ===
+Function Description
+Integrates temperature and smoke sensors to monitor multiple
+Multi-Parameter
+indicators related to battery thermal runaway.
+Monitoring
+Conducts fault diagnostics across key points of the system to
+System-Wide
+ensure operational accuracy and reliability.
+Diagnostics
+In the event of an abnormal condition, the system continuously
+Abnormal Data records monitoring data before the event using a built-in high-
+Record capacity storage device, serving as a black box for post-event
+analysis and maintenance.
+Analyzes and processes operational data from the battery system
+Intelligent Judgment
+using thermal runaway models to enhance predictive capabilities.
+Utilizes multi-point and real-time monitoring to promptly detect
+Early Warning abnormal fire conditions in the energy storage station, enabling
+automatic early warning functions.
+Implements tiered alarm prioritization (strong and weak
+Classified Alarm alarms) to distinguish different abnormal conditions and
+facilitate appropriate response actions.
+Table 2: FSS Detector Functions
+Cabinet Safety Features
+Heat Insulation and Dust Protection
+The cabinet’s main external structure is fabricated from weathering steel plates, hot-rolled steel, and
+other materials commonly used in shipping containers. The surface is coated with a zinc-rich primer,
+an intermediate epoxy layer, and an acrylic topcoat. The anti-corrosion coating thickness reaches
+150μm, ensuring durability in harsh cold climate conditions.
+Inside the cabinet, 50 mm high-density sandwich rock wool panels are installed, providing excellent
+thermal insulation to maintain optimal battery operation.
+Considering the impact of wind and sand in the deployment regions, cabinet doors, vents, and fans
+are fitted with tightly sealed structures and dust filters, effectively preventing sand and dust from
+entering the cabinet.
+Moisture and Waterproof Protection
+The battery pack is a high-voltage energy storage unit containing numerous control circuits and single
+cells. Ingress of liquids could cause short circuits, leakage, or corrosion of the cells, circuits, and
+connectors, posing significant safety risks.
+15
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 18 ===
+It is essential to ensure that the battery pack is protected against water immersion, rain exposure, and
+high humidity. Immediate maintenance is required if any part of the battery pack is exposed to rain or
+submerged in liquid.
+Considering the heavy rainfall and significant day-night temperature differences at the project site, all
+cabinet doors are equipped with high-performance rubber seals to prevent water ingress and moisture
+intrusion.
+This design ensures both waterproofing and thermal insulation, minimizing the risk of condensation
+inside the cabinet.
+UV Protection
+Ultraviolet absorbers are added to the coatings on all steel plates covering the cabinet's exterior
+surfaces. This treatment prevents material degradation caused by UV exposure and reduces the
+absorption of UV-induced heat.
+High-Voltage Insulation
+All power connection points within the battery pack are protected by sufficient insulation measures,
+ensuring that neither the positive nor the negative terminals come into contact with the external
+housing under any circumstances, thereby preventing leakage or short-circuit hazards.
+Maintenance pathways inside the cabinet are additionally covered with insulating rubber mats to
+enhance operational safety.
+Cooling and Insulation System
+The cabinet interior adopts a thermal insulation design to provide superior temperature control.
+Each system has undergone comprehensive thermal flow simulation by a specialized team to optimize
+heat management.
+A large air intake area combined with an ample air exhaust outlet forms an effective cooling system,
+ensuring efficient heat dissipation and maintaining system performance even under high- temperature
+conditions.
+16
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 19 ===
+AC Confluence Cabinet Specifications
+Figure: AC Confluence Cabinet Dimensions
+External Interface Definitions
+Figure: External Interface Diagram
+17
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 20 ===
+The external interfaces for the confluence cabinet are shown in the diagram above, and the interface
+definitions are as follows:
+No. Component Name Quantity / Description
+① PCS Module (125kW) 4
+② AC Circuit Breakers 6
+③ Distribution Switches 1 auxiliary power main switch, 11
+other breakers
+④ UPS (2kVA) 1
+⑤ Level 3 BMS (EMU) 1
+⑥ Emergency Stop & 1 emergency stop, 2 indicator
+Indicator Lights lights
+⑦ Transformer (2kVA) 1
+⑧ AC Output Busbars U, V, W
+⑨ DC Input Busbars 6* positive, 6* negative
+*Note: Total of 6 are in use.
+Installation Example
+Figure: EDGE cabinets + AC confluence cabinet rendered image
+18
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 21 ===
+PCS Specifications
+Kehua BCS125K-B-HM-US X2
+19
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 22 ===
+BESS O&M Technical Support
+The BESS product is comprised mostly of solid-state technology with only a few mechanical
+components required for operation. This system design reduces the need for major
+maintenance overhauls, while improving overall system availability and reliability. Gotion
+offers an annual Operation & Maintenance Package to cover basic maintenance
+requirements, which will be finalized before the project’s Commercial Operation Date.
+The Maintenance Package centers on the manufacturer’s Required Maintenance Schedule,
+which itemizes onsite inspections, upkeep of consumables, and minor repairs. Inclusive of
+the Maintenance Package, Gotion provides its customers with training in basic equipment
+inspections and troubleshooting, as well as for minor repair tasks, which can be performed
+by the customer’s technicians in the event immediate on-site support is required. This
+training is performed by experienced Gotion engineers and technicians. A snapshot of the
+Required Maintenance Schedule is shown below:
+20
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 23 ===
+BESS O&M Checklist
+Service Service
+Interval: Interval:
+Service Item to be performed by PM 6 12
+months months
+Cabinet
+Inspect cabinet appearance, seals, door lock function, X
+grounding, and air ducts.
+Information System
+Inspect equipment status/alerts and operating parameters X
+Check rack/pack/cell voltage balance and emergency stop X
+function
+BAMS data download and backup X
+Confluence Cabinet (Controls)
+Temperature inspection of power line connection points X
+(using IR camera)
+Inspect all contact integrity of wires and hardware and circuit X
+breakers connections.
+Confluence Cabinet (HV Side)
+Temperature inspection of power line connection points X
+(using IR camera)
+Inspect all contact integrity of wires and hardware and circuit X
+breakers connections.
+Inspect all copper bar connections and check bolt torque. X
+PCU
+Temperature inspection of power line connection points X
+(using IR camera)
+Inspect all contact integrity of wires and hardware and circuit X
+breakers connections.
+Battery Rack Inspection
+Temperature inspection of power line connection points X
+(using IR camera)
+Inspect all contact integrity of wires, hardware, and wire X
+harnesses. Rack visual inspection.
+Fire Suppression System
+Fire suppressant pressure check (gage on tank) X
+Inspect all contact integrity of wires, hardware, and wire X
+harnesses. Rack visual inspection.
+Simulate fire test, trigger smoke/heat sensors 24
+months
+Liquid Cooling Unit
+Visual inspection of chiller, clean and replace filters, and X
+inspection of water coolant pipelines
+Coolant inspection/replacement 60
+months
+HVAC Equipment
+Inspection for water intrusion, cleanliness of air conditioner X
+inlet and outlet, inspect and clean filters
+21
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 24 ===
+Inspect air conditioning wiring and check functionality X
+Company Overview
+Gotion is a global battery technology leader focused on delivering safe, sustainable, and
+scalable energy solutions. Since 2006, Gotion has been at the forefront of lithium iron
+phosphate (LFP) battery innovation, serving electric vehicles, stationary energy storage, and
+industrial applications across markets worldwide.
+With an integrated product lineup—from advanced battery cells and modules to containerized
+ESS solutions and energy management platforms—Gotion supports the transition to clean
+energy with products built to last.
+Today, Gotion operates across five major global regions with 20 gigafactories, 8 R&D centers,
+and a growing global workforce of over 30,000 employees representing 30+ nationalities.
+What We Offer
+Battery cells and modules for EVs, ESS, and heavy-duty transport
+Turnkey energy storage systems (ESS) for utility-scale, commercial, and residential use
+Battery management systems (BMS) and integrated controls
+Recycling and second-life energy solutions
+Gotion’s manufacturing and supply chain operations span the U.S., Morocco, Slovakia,
+Vietnam, and China, with continued investment in global capacity and localized delivery.
+Achievements
+Recognized as a Top 5 global battery manufacturer
+Named Tier 1 ESS battery supplier by Bloomberg NEF (2024)
+Publicly traded on the Shenzhen Stock Exchange and Swiss Stock Exchange (GDRs)
+Volkswagen Group holds over 25% ownership stake as a long-term strategic partner
+Over 1.2 billion kilometers driven by Gotion-powered EVs—equivalent to 48,200 Earth laps
+Over 50 GWh of ESS deployed globally, powering thousands of commercial buildings and
+homes each day
+Launched the industry’s first zero-carbon LFP battery factory, certified by TÜV Rheinland
+Built for the Future
+From our U.S. operations headquartered in Fremont, California to our latest production lines in
+Illinois, Chicago, Gotion is building the infrastructure that powers tomorrow’s energy
+landscape—cleanly, reliably, and at scale.
+22
+CONFIDENTIAL AND PROPRIETARY
+=== PAGINA 25 ===
+Global Manufacturing
+Gotion builds close to where the future unfolds. With over 20 gigafactories worldwide—from
+Asia and Europe to North America — our global manufacturing network is designed for scale,
+flexibility, and proximity to our customers.
+Our manufacturing footprint supports the full battery value chain, from cell and pack production
+to containerized ESS assembly, with facilities purpose-built to meet rising demand in electric
+mobility and energy storage.
+U.S. Manufacturing
+In the United States, we’re proud to lead with our Manteno, Illinois production facility—a
+cornerstone of our North American strategy. This state-of-the-art plant supports containerized
+ESS assembly, functional testing, and quality control for utility-scale deployments. Located just
+outside Chicago, Manteno is strategically positioned to serve partners across the U.S. with
+shorter lead times and local compliance confidence. Opened in September 2023, this facility is
+one of the most ambitious battery manufacturing investments in the U.S. energy transition.
+The first container rolled off the line in Q1 2024, marking the start of localized ESS supply from
+Illinois. With integrated lines for cell, pack, and system assembly, Manteno will play a central
+role in supporting Gotion’s North American ESS customers—delivering on performance,
+logistics, and domestic content strategy.
+- END -
+23
+CONFIDENTIAL AND PROPRIETARY
